@@ -1,0 +1,33 @@
+Ask
+A) Build a new django app that lists coffees
+B) index and Show Route
+
+
+
+
+1) made a new django project
+    - made project file
+    - pipenv shell
+    - pipenv install django
+    - pipenv install psycopg2-binary
+    - django-admin startproject beauty_and_the_bean
+2) swapped out database variables to postgressql
+3) Create the beautyandthebean_db
+    CREATEDB coffee_db
+    psql
+    \l
+    this will show all databases + new database just created.
+4) make a new app where we can make models
+5) make a url.py in your new coffee app
+6) add initial url.py to coffee app url.py
+7) attach the coffee app and urls to the main project.
+8) set up templates for index and show
+9) update my views to use the templates
+10) define a coffee model
+11) run makemigrations and migrate
+12) install pillow for images
+13) set up admin.py with models
+14) create superuser for admin portal and create some seed data
+15) update your views to use the model to return data (index route first)
+
+
